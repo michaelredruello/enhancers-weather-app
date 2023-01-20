@@ -1,0 +1,58 @@
+.city-selected {
+  display: flex;
+  padding: 2rem 1rem;
+  margin-top: 15px;
+  background-image: linear-gradient(to right, gray, silver);
+  border-radius: 1.5rem;
+  font-size: 14px;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 140px;
+  color: white;
+}
+
+.city-selected-active {
+  display: flex;
+  padding: 2rem 1rem;
+  margin-top: 15px;
+  background: linear-gradient(to right, #011354 0%, #5b9fe3 100%);
+  border-radius: 1.5rem;
+  font-size: 14px;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 140px;
+  color: white;
+}
+
+.add-city-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  margin-top: 54px;
+}
+
+@media only screen and (max-width: 768px) {
+  .add-city-container {
+    padding-top: 10px;
+  }
+}
+
+.plus-icon {
+  margin-right: 10px;
+}
+
+.weather-icon-sunny-rain {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 20px;
+}
+
+.weather-icon-cloud {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 20px;
+}
+
+.degree {
+  margin-top: 8px;
+}

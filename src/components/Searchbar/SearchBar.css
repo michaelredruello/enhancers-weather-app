@@ -1,0 +1,61 @@
+.search-bar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-bar {
+  border: 0;
+  outline: 0;
+  border-radius: 1.5rem;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .button-icon {
+    margin-left: -50px;
+  }
+
+  .search-title {
+    margin-left: 14px !important;
+    margin-top: 10px !important;
+  }
+
+  .localization-title {
+    margin-left: 14px !important;
+  }
+}
+
+.button-icon {
+  border: 0;
+  background: radial-gradient(circle, #5374e7 0%, #77b9f5 100%);
+  padding: 2rem 1rem;
+  border-radius: 1.5rem;
+}
+
+.localization-container {
+  display: grid;
+  place-items: center;
+  padding: 2rem 1rem;
+  margin-top: 20px;
+  border-radius: 1.5rem;
+  color: white;
+  background: linear-gradient(to right, #5374e7 0%, #77b9f5 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+  margin: 5px;
+}
+
+.bi-search {
+  width: 25px;
+  height: 25px;
+}
+
+.bi-geo-alt {
+  width: 30px;
+  height: 35px;
+}

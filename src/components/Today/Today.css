@@ -1,0 +1,15 @@
+.day-temperature {
+  display: grid;
+  place-items: center;
+  padding: 76px 1rem;
+  margin-top: 20px;
+  border-radius: 1.5rem;
+  font-size: 14px;
+  color: white;
+  background: linear-gradient(to right, #5374e7 0%, #77b9f5 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.today-title {
+  margin: 15px;
+}

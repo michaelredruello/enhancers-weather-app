@@ -1,0 +1,49 @@
+.monthTabs {
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+.monthTab {
+  padding: 2rem 1rem;
+  border-radius: 0.2rem 0.2rem 1.5rem 1.5rem;
+  font-size: 14px;
+  color: white;
+  background: linear-gradient(to right, #5374e7 0%, #77b9f5 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.week-day1 {
+  padding: 110px 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.week-day2 {
+  padding: 110px 30px;
+  border-radius: 15px;
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.week-day3 {
+  padding: 110px 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.month {
+  padding: 110px 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 768px) {
+  .monthTabs {
+    font-size: 14px;
+  }
+}
